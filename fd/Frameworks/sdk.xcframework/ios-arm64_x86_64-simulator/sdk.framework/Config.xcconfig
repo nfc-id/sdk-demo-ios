@@ -1,0 +1,10 @@
+//
+//  Config.xcconfig
+//  nfc
+//
+//  Created by Alberto Calderón on 06-02-24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "BetaConfig.xcconfig"

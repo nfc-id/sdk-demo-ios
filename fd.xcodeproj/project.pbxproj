@@ -1,0 +1,867 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D336C4D42D4D201B0030FB61 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D336C4D32D4D201B0030FB61 /* Lottie */; };
+		D336C4DA2D4D201B0030FB61 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D336C4D92D4D201B0030FB61 /* Alamofire */; };
+		D336C4DC2D4D201B0030FB61 /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = D336C4DB2D4D201B0030FB61 /* BottomSheet */; };
+		D336C4DE2D4D201B0030FB61 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = D336C4DD2D4D201B0030FB61 /* KeychainAccess */; };
+		D336C4E02D4D201B0030FB61 /* MRZParser in Frameworks */ = {isa = PBXBuildFile; productRef = D336C4DF2D4D201B0030FB61 /* MRZParser */; };
+		D336C4E22D4D201B0030FB61 /* NFCPassportReader in Frameworks */ = {isa = PBXBuildFile; productRef = D336C4E12D4D201B0030FB61 /* NFCPassportReader */; };
+		D336C4E42D4D201B0030FB61 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = D336C4E32D4D201B0030FB61 /* CachedAsyncImage */; };
+		D336C4E62D4D201B0030FB61 /* TrustKit in Frameworks */ = {isa = PBXBuildFile; productRef = D336C4E52D4D201B0030FB61 /* TrustKit */; };
+		D336C4E82D4D201B0030FB61 /* FaceLiveness in Frameworks */ = {isa = PBXBuildFile; productRef = D336C4E72D4D201B0030FB61 /* FaceLiveness */; };
+		D336C4EA2D4D20490030FB61 /* TrustKitStatic in Frameworks */ = {isa = PBXBuildFile; productRef = D336C4E92D4D20490030FB61 /* TrustKitStatic */; };
+		D336C4ED2D4D21D50030FB61 /* MRZScanner in Frameworks */ = {isa = PBXBuildFile; productRef = D336C4EC2D4D21D50030FB61 /* MRZScanner */; };
+		D336C4EF2D4D21F10030FB61 /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = D336C4EE2D4D21F10030FB61 /* DeviceKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D32686FB2D1AEA560014646B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32686E22D1AEA550014646B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D32686E92D1AEA550014646B;
+			remoteInfo = fd;
+		};
+		D32687052D1AEA560014646B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32686E22D1AEA550014646B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D32686E92D1AEA550014646B;
+			remoteInfo = fd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D30104682D7B2B2800BF870E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D32686EA2D1AEA550014646B /* fd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32686FA2D1AEA560014646B /* fdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32687042D1AEA560014646B /* fdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D3BAAA012D5545CF00E8C89A /* Exceptions for "fd" folder in "fd" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D32686E92D1AEA550014646B /* fd */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		D3CBD2C12DF3507300C12277 /* Exceptions for "fd" folder in "Embed Frameworks" phase from "fd" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			attributesByRelativePath = {
+				Frameworks/sdk.xcframework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
+			};
+			buildPhase = D30104682D7B2B2800BF870E /* Embed Frameworks */;
+			membershipExceptions = (
+				Frameworks/sdk.xcframework,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D32686EC2D1AEA550014646B /* fd */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D3BAAA012D5545CF00E8C89A /* Exceptions for "fd" folder in "fd" target */,
+				D3CBD2C12DF3507300C12277 /* Exceptions for "fd" folder in "Embed Frameworks" phase from "fd" target */,
+			);
+			path = fd;
+			sourceTree = "<group>";
+		};
+		D32686FD2D1AEA560014646B /* fdTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = fdTests;
+			sourceTree = "<group>";
+		};
+		D32687072D1AEA560014646B /* fdUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = fdUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D32686E72D1AEA550014646B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D336C4DC2D4D201B0030FB61 /* BottomSheet in Frameworks */,
+				D336C4ED2D4D21D50030FB61 /* MRZScanner in Frameworks */,
+				D336C4E82D4D201B0030FB61 /* FaceLiveness in Frameworks */,
+				D336C4D42D4D201B0030FB61 /* Lottie in Frameworks */,
+				D336C4E62D4D201B0030FB61 /* TrustKit in Frameworks */,
+				D336C4EA2D4D20490030FB61 /* TrustKitStatic in Frameworks */,
+				D336C4DE2D4D201B0030FB61 /* KeychainAccess in Frameworks */,
+				D336C4E42D4D201B0030FB61 /* CachedAsyncImage in Frameworks */,
+				D336C4DA2D4D201B0030FB61 /* Alamofire in Frameworks */,
+				D336C4E02D4D201B0030FB61 /* MRZParser in Frameworks */,
+				D336C4EF2D4D21F10030FB61 /* DeviceKit in Frameworks */,
+				D336C4E22D4D201B0030FB61 /* NFCPassportReader in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32686F72D1AEA560014646B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32687012D1AEA560014646B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D32686E12D1AEA550014646B = {
+			isa = PBXGroup;
+			children = (
+				D32686EC2D1AEA550014646B /* fd */,
+				D32686FD2D1AEA560014646B /* fdTests */,
+				D32687072D1AEA560014646B /* fdUITests */,
+				D32686EB2D1AEA550014646B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D32686EB2D1AEA550014646B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D32686EA2D1AEA550014646B /* fd.app */,
+				D32686FA2D1AEA560014646B /* fdTests.xctest */,
+				D32687042D1AEA560014646B /* fdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D32686E92D1AEA550014646B /* fd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D326870E2D1AEA560014646B /* Build configuration list for PBXNativeTarget "fd" */;
+			buildPhases = (
+				D32686E62D1AEA550014646B /* Sources */,
+				D32686E72D1AEA550014646B /* Frameworks */,
+				D32686E82D1AEA550014646B /* Resources */,
+				D30104682D7B2B2800BF870E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D32686EC2D1AEA550014646B /* fd */,
+			);
+			name = fd;
+			packageProductDependencies = (
+				D336C4D32D4D201B0030FB61 /* Lottie */,
+				D336C4D92D4D201B0030FB61 /* Alamofire */,
+				D336C4DB2D4D201B0030FB61 /* BottomSheet */,
+				D336C4DD2D4D201B0030FB61 /* KeychainAccess */,
+				D336C4DF2D4D201B0030FB61 /* MRZParser */,
+				D336C4E12D4D201B0030FB61 /* NFCPassportReader */,
+				D336C4E32D4D201B0030FB61 /* CachedAsyncImage */,
+				D336C4E52D4D201B0030FB61 /* TrustKit */,
+				D336C4E72D4D201B0030FB61 /* FaceLiveness */,
+				D336C4E92D4D20490030FB61 /* TrustKitStatic */,
+				D336C4EC2D4D21D50030FB61 /* MRZScanner */,
+				D336C4EE2D4D21F10030FB61 /* DeviceKit */,
+			);
+			productName = fd;
+			productReference = D32686EA2D1AEA550014646B /* fd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D32686F92D1AEA560014646B /* fdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32687112D1AEA560014646B /* Build configuration list for PBXNativeTarget "fdTests" */;
+			buildPhases = (
+				D32686F62D1AEA560014646B /* Sources */,
+				D32686F72D1AEA560014646B /* Frameworks */,
+				D32686F82D1AEA560014646B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D32686FC2D1AEA560014646B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D32686FD2D1AEA560014646B /* fdTests */,
+			);
+			name = fdTests;
+			packageProductDependencies = (
+			);
+			productName = fdTests;
+			productReference = D32686FA2D1AEA560014646B /* fdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D32687032D1AEA560014646B /* fdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32687142D1AEA560014646B /* Build configuration list for PBXNativeTarget "fdUITests" */;
+			buildPhases = (
+				D32687002D1AEA560014646B /* Sources */,
+				D32687012D1AEA560014646B /* Frameworks */,
+				D32687022D1AEA560014646B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D32687062D1AEA560014646B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D32687072D1AEA560014646B /* fdUITests */,
+			);
+			name = fdUITests;
+			packageProductDependencies = (
+			);
+			productName = fdUITests;
+			productReference = D32687042D1AEA560014646B /* fdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D32686E22D1AEA550014646B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D32686E92D1AEA550014646B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D32686F92D1AEA560014646B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D32686E92D1AEA550014646B;
+					};
+					D32687032D1AEA560014646B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D32686E92D1AEA550014646B;
+					};
+				};
+			};
+			buildConfigurationList = D32686E52D1AEA550014646B /* Build configuration list for PBXProject "fd" */;
+			developmentRegion = "es-419";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				"es-419",
+			);
+			mainGroup = D32686E12D1AEA550014646B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D3A3A2A82D4A9B9600C65D46 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				D3A3A2A92D4A9BAA00C65D46 /* XCRemoteSwiftPackageReference "DeviceKit" */,
+				D3A3A2AA2D4A9BD200C65D46 /* XCRemoteSwiftPackageReference "MRZScanner" */,
+				D3A3A2AB2D4A9BEB00C65D46 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				D3A3A2AC2D4A9C1D00C65D46 /* XCRemoteSwiftPackageReference "BottomSheet" */,
+				D3A3A2AD2D4A9C2B00C65D46 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				D3A3A2AE2D4A9C3F00C65D46 /* XCRemoteSwiftPackageReference "MRZParser" */,
+				D3A3A2AF2D4A9C5E00C65D46 /* XCRemoteSwiftPackageReference "NFCPassportReader" */,
+				D3A3A2B02D4A9C7900C65D46 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+				D3A3A2B12D4A9C8700C65D46 /* XCRemoteSwiftPackageReference "TrustKit" */,
+				D3A3A2B22D4A9C9700C65D46 /* XCRemoteSwiftPackageReference "amplify-ui-swift-liveness" */,
+				D314A0382D4D91210066C3F6 /* XCRemoteSwiftPackageReference "RNCryptor" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D32686EB2D1AEA550014646B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D32686E92D1AEA550014646B /* fd */,
+				D32686F92D1AEA560014646B /* fdTests */,
+				D32687032D1AEA560014646B /* fdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D32686E82D1AEA550014646B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32686F82D1AEA560014646B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32687022D1AEA560014646B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D32686E62D1AEA550014646B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32686F62D1AEA560014646B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32687002D1AEA560014646B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D32686FC2D1AEA560014646B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D32686E92D1AEA550014646B /* fd */;
+			targetProxy = D32686FB2D1AEA560014646B /* PBXContainerItemProxy */;
+		};
+		D32687062D1AEA560014646B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D32686E92D1AEA550014646B /* fd */;
+			targetProxy = D32687052D1AEA560014646B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D326870C2D1AEA560014646B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D326870D2D1AEA560014646B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D326870F2D1AEA560014646B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = fd/fdDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fd/Preview Content\"";
+				DEVELOPMENT_TEAM = T98LBCJGRB;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/fd",
+					"$(PROJECT_DIR)/fd/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fd/Info.plist;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "Esta aplicación usa NFC para leer tu documento de identidad";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Esta aplicación usa la cámara para leer tu documento de identidad";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "nfc front-facing-camera still-camera";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.clever.fd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D32687102D1AEA560014646B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = fd/fd.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fd/Preview Content\"";
+				DEVELOPMENT_TEAM = T98LBCJGRB;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/fd",
+					"$(PROJECT_DIR)/fd/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fd/Info.plist;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "Esta aplicación usa NFC para leer tu documento de identidad";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Esta aplicación usa la cámara para leer tu documento de identidad";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "nfc front-facing-camera still-camera";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.clever.fd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D32687122D1AEA560014646B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T98LBCJGRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.clever.fdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fd.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fd";
+			};
+			name = Debug;
+		};
+		D32687132D1AEA560014646B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T98LBCJGRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.clever.fdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fd.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fd";
+			};
+			name = Release;
+		};
+		D32687152D1AEA560014646B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T98LBCJGRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.clever.fdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = fd;
+			};
+			name = Debug;
+		};
+		D32687162D1AEA560014646B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T98LBCJGRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.clever.fdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = fd;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D32686E52D1AEA550014646B /* Build configuration list for PBXProject "fd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D326870C2D1AEA560014646B /* Debug */,
+				D326870D2D1AEA560014646B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D326870E2D1AEA560014646B /* Build configuration list for PBXNativeTarget "fd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D326870F2D1AEA560014646B /* Debug */,
+				D32687102D1AEA560014646B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32687112D1AEA560014646B /* Build configuration list for PBXNativeTarget "fdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32687122D1AEA560014646B /* Debug */,
+				D32687132D1AEA560014646B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32687142D1AEA560014646B /* Build configuration list for PBXNativeTarget "fdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32687152D1AEA560014646B /* Debug */,
+				D32687162D1AEA560014646B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D314A0382D4D91210066C3F6 /* XCRemoteSwiftPackageReference "RNCryptor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RNCryptor/RNCryptor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+		D3A3A2A82D4A9B9600C65D46 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.1;
+			};
+		};
+		D3A3A2A92D4A9BAA00C65D46 /* XCRemoteSwiftPackageReference "DeviceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devicekit/DeviceKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.0;
+			};
+		};
+		D3A3A2AA2D4A9BD200C65D46 /* XCRemoteSwiftPackageReference "MRZScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/romanmazeev/MRZScanner.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.0;
+			};
+		};
+		D3A3A2AB2D4A9BEB00C65D46 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		D3A3A2AC2D4A9C1D00C65D46 /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lucaszischka/BottomSheet";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+		D3A3A2AD2D4A9C2B00C65D46 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		D3A3A2AE2D4A9C3F00C65D46 /* XCRemoteSwiftPackageReference "MRZParser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/romanmazeev/MRZParser";
+			requirement = {
+				kind = exactVersion;
+				version = 1.1.4;
+			};
+		};
+		D3A3A2AF2D4A9C5E00C65D46 /* XCRemoteSwiftPackageReference "NFCPassportReader" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nfc-id/NFCPassportReader";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		D3A3A2B02D4A9C7900C65D46 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+		D3A3A2B12D4A9C8700C65D46 /* XCRemoteSwiftPackageReference "TrustKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/datatheorem/TrustKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.5;
+			};
+		};
+		D3A3A2B22D4A9C9700C65D46 /* XCRemoteSwiftPackageReference "amplify-ui-swift-liveness" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ui-swift-liveness";
+			requirement = {
+				kind = exactVersion;
+				version = 1.3.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D336C4D32D4D201B0030FB61 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3A3A2A82D4A9B9600C65D46 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+		D336C4D92D4D201B0030FB61 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3A3A2AB2D4A9BEB00C65D46 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		D336C4DB2D4D201B0030FB61 /* BottomSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3A3A2AC2D4A9C1D00C65D46 /* XCRemoteSwiftPackageReference "BottomSheet" */;
+			productName = BottomSheet;
+		};
+		D336C4DD2D4D201B0030FB61 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3A3A2AD2D4A9C2B00C65D46 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		D336C4DF2D4D201B0030FB61 /* MRZParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3A3A2AE2D4A9C3F00C65D46 /* XCRemoteSwiftPackageReference "MRZParser" */;
+			productName = MRZParser;
+		};
+		D336C4E12D4D201B0030FB61 /* NFCPassportReader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3A3A2AF2D4A9C5E00C65D46 /* XCRemoteSwiftPackageReference "NFCPassportReader" */;
+			productName = NFCPassportReader;
+		};
+		D336C4E32D4D201B0030FB61 /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3A3A2B02D4A9C7900C65D46 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+		D336C4E52D4D201B0030FB61 /* TrustKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3A3A2B12D4A9C8700C65D46 /* XCRemoteSwiftPackageReference "TrustKit" */;
+			productName = TrustKit;
+		};
+		D336C4E72D4D201B0030FB61 /* FaceLiveness */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3A3A2B22D4A9C9700C65D46 /* XCRemoteSwiftPackageReference "amplify-ui-swift-liveness" */;
+			productName = FaceLiveness;
+		};
+		D336C4E92D4D20490030FB61 /* TrustKitStatic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3A3A2B12D4A9C8700C65D46 /* XCRemoteSwiftPackageReference "TrustKit" */;
+			productName = TrustKitStatic;
+		};
+		D336C4EC2D4D21D50030FB61 /* MRZScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3A3A2AA2D4A9BD200C65D46 /* XCRemoteSwiftPackageReference "MRZScanner" */;
+			productName = MRZScanner;
+		};
+		D336C4EE2D4D21F10030FB61 /* DeviceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3A3A2A92D4A9BAA00C65D46 /* XCRemoteSwiftPackageReference "DeviceKit" */;
+			productName = DeviceKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D32686E22D1AEA550014646B /* Project object */;
+}

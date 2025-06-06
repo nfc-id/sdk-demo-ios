@@ -1,0 +1,157 @@
+//
+//  AfterMRZWaitView.swift
+//  nfc
+//
+//  Created by Alberto Calderón on 23-05-24.
+//
+
+import SwiftUI
+internal import BottomSheet
+
+struct AfterMRZWaitView: View {
+    @Environment(\.colorScheme) var colorScheme
+    @Environment(\.presentationMode) var presentationMode
+    @Environment(\.rootPresentation) var rootPresentation
+    @EnvironmentObject var dataStore: IDCardDataStore
+    @EnvironmentObject var semitone: Semitone
+    
+    @Binding var path: [Int]
+
+    @State private var step = 1
+    @State private var totalSteps = 3
+    @State private var nextPage: Bool = false
+
+    @State private var blockedView: BottomSheetPosition = .hidden
+    @State private var noChecksView: BottomSheetPosition = .hidden
+    
+    @State var hasSelection: Bool?
+
+    var body: some View {
+        ZStack {
+            NavigationView {
+                ZStack {
+                    NavigationLink(destination:
+                                    destination(),
+                       isActive: self.$nextPage) {
+                        EmptyView()
+                    }.hidden()
+                    AppColor.white
+                    VStack(spacing: 0) {
+                        VStack(alignment: .leading, spacing: 0) {
+
+                            LottieView(name: LottieFiles.waiting, loopMode: .loop, animationSpeed: 1)
+                                .frame(height: 204)
+                                .frame(maxWidth: .infinity )
+                                .padding(24)
+                        }
+                    }
+                }
+                .navigationTitle(dataStore.barTitle)
+                .navigationBarTitleDisplayMode(.inline)
+                .environmentObject(dataStore)
+                .toolbar {
+                    ToolbarItem(placement: .principal) {
+                        VStack {
+                             Text("").semiBold16Heading()
+                        }
+                    }
+                }.background(AppColor.white)
+
+            }.navigationBarBackButtonHidden(true)
+                .bottomSheet(bottomSheetPosition: $blockedView, switchablePositions: [
+                    .relative(0.9),
+                ]) {
+
+                    BottomErrorView(error: .constant(.idBlockedError), mainAction: {
+                        blockedView = .hidden
+                        rootPresentation.wrappedValue = false
+                        backToApp(path: &path)
+                    }, secondaryAction: {
+                        AmparoIdParameters.contactSupport()()
+                    })
+
+                }
+                .showDragIndicator(false)
+                .enableBackgroundBlur()
+                .backgroundBlurMaterial(.systemDark)
+                .customBackground(
+                    AppColor.white
+                        .cornerRadius(32)
+                )
+                .bottomSheet(bottomSheetPosition: $noChecksView, switchablePositions: [
+                    .relative(0.9),
+                ]) {
+
+                    BottomErrorView(error: .constant(.noVerificationsError), mainAction: {
+<<<<<<< Updated upstream
+                        backToApp(path: &path)
+=======
+                        AmparoId.backToApp()
+>>>>>>> Stashed changes
+                        blockedView = .hidden
+                        rootPresentation.wrappedValue = false
+                    }, secondaryAction: {
+                        AmparoIdParameters.contactSupport()()
+                    })
+
+                }
+                .showDragIndicator(false)
+                .enableBackgroundBlur()
+                .backgroundBlurMaterial(.systemDark)
+                .customBackground(
+                    AppColor.white
+                        .cornerRadius(32)
+                )
+                .onChange(of: dataStore.flowList) { flows  in
+                    dprint("CHANGE ON FlowList")
+                    let flowCount = flows?.count ?? 0
+
+                    DispatchQueue.main.async {
+                        if flowCount == 1 {
+                            setFlow(flows: flows)
+                        } else if flowCount > 1 {
+                            hasSelection = true
+                            nextPage = true
+                        } else {
+                            noChecksView = .dynamic
+                        }
+                    }
+                }
+                .onChange(of: dataStore.internetError) { _  in
+                    if dataStore.internetError == nil {
+                        return
+                    }
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.8, execute: {
+                        blockedView = .relative(0.9)
+                    })
+                }
+                .onOpenURL(perform: { url in
+                    manageURL(url, rootPresentation: rootPresentation)
+                })
+        }
+    }
+
+    func setFlow(flows: [FlowModel]?) {
+        if let flow = flows?.first {
+            dataStore.currentFlow = flow
+            dataStore.currentTrivia = flow.trivia
+            hasSelection = false
+            nextPage = true
+        }
+    }
+
+    func destination() -> AnyView? {
+        let destinations = Conductor.shared.nextAltScreens(current: Mirror(reflecting: self), dataStore: dataStore)
+        let dest =  (hasSelection ?? false ) ? destinations.first : destinations.last
+        dprint("dest is \(String(describing: dest))")
+        return dest
+
+    }
+}
+
+#Preview {
+    AfterMRZWaitView(path:.constant([]))
+        .environment( \.colorScheme, .light)
+        .environmentObject(IDCardDataStore())
+        .environmentObject(Semitone(showTrivia: false))
+}

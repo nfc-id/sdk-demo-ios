@@ -1,0 +1,11 @@
+//
+//  SPMSettings.xcconfig
+//  sdk
+//
+//  Created by Alberto Calderón on 17-01-25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+SWIFT_OPTIMIZATION_LEVEL = -Onone

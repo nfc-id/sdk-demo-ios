@@ -1,0 +1,146 @@
+//
+//  AmparoId.swift
+//  sdk
+//
+//  Created by Alberto Calderón on 27-01-25.
+//
+
+import Foundation
+import SwiftUI
+internal import TrustKit
+
+public class AmparoId {
+    
+    static var path:[Int] = []
+    
+    
+    public static func amaparoInit() {
+        FontLoader.registerCustomFonts()
+        
+    }
+    
+    public static func setConfig(config:AmparoIdConfig) {
+        AmparoIdParameters.configuration = config
+        configTrustKit()
+        AppColor.primaryMain = config.mainColor
+    }
+    
+    public static func amparoCheck() -> String {
+        //return "AmparoID"
+        return baseURL
+    }
+    
+    public static func amparoBundle() -> String {
+        return Bundle(for: AmparoId.self).bundlePath
+    }
+    
+    static func backToApp() {
+        let a = AmparoId.path
+    }
+    
+    @ViewBuilder
+<<<<<<< Updated upstream
+    public static func flux(step:Int, path: Binding<[Int]>) -> some View {
+        //@Binding var path: [Int]
+        let _ = {
+            print("wrapper Path \(path)")
+            print("wrapper step Path \(step)")
+        }()
+        AmparoWrapper(step: step, path: path)
+        
+=======
+    public static func flux(path: [Int]) -> some View {
+        let _ = {
+            print("setPath")
+            AmparoId.path = path
+            print("seted Path \(path)")
+            
+        }()
+        AmparoWrapper()
+>>>>>>> Stashed changes
+    }
+
+    @ViewBuilder
+    public static func errorMessageTest() -> some View {
+        BottomErrorSample()
+    }
+ 
+    
+    internal static func configTrustKit() {
+        let baseUrl =  AmparoIdParameters.configuration?.baseUrl ?? ""
+        let components = baseUrl.components(separatedBy: "/")
+        let domain = components.first
+
+        let awsConfiguration = [
+            kTSKSwizzleNetworkDelegates: false,
+            kTSKPinnedDomains: [
+                domain: [
+                    kTSKExpirationDate: "2025-04-09",
+                    kTSKPublicKeyHashes: [
+                        "++MBgDH5WGvL9Bcn5Be30cRcL0f5O+NyoXuWtQdX1aI=",
+                        "f0KW/FtqTjs108NpYj42SrGvOB2PpxIVM8nWxjPqJGE=",
+                        "NqvDJlas/GRcYbcWE8S/IceH9cq77kg0jVhZeAPXq8k=",
+                        "9+ze1cZgR9KO1kZrVDxA4HQ6voHRCSVNz4RdTCx4U8U=",
+                        "KwccWaCgrnaw6tsrrSO61FgLacNgG2MMLq8GE6+oP5I="
+                    ], ]
+            ]] as [String: Any]
+
+        let cloudConf = [
+            kTSKSwizzleNetworkDelegates: false,
+            kTSKPinnedDomains: [
+                domain: [
+                    kTSKExpirationDate: "2025-04-09",
+                    kTSKPublicKeyHashes: [
+                        "kIdp6NNEd8wsugYyyIYFsi1ylMCED3hZbSR8ZFsa/A4=",
+                        "KwccWaCgrnaw6tsrrSO61FgLacNgG2MMLq8GE6+oP5I="
+                    ], ]
+            ]] as [String: Any]
+
+        let trustKitConfig = (AmparoIdParameters.configuration?.awsServer ?? true) ? awsConfiguration : cloudConf
+
+        TrustKit.initSharedInstance(withConfiguration: trustKitConfig)
+    }
+}
+
+func relativeLocalization(localized:String) -> String {
+    
+    let local = NSLocalizedString(localized, comment: "")
+    if local != localized {
+        return local
+    }
+    let bundStr = NSLocalizedString(localized, bundle: sdkbundle, comment: "")
+    return bundStr
+    
+}
+
+#Preview {
+    let _ = {
+            FontLoader.registerCustomFonts()
+        }()
+    AmparoWrapper(step:273, path: .constant([]))
+        .environment( \.colorScheme, .light)
+        .environmentObject(IDCardDataStore())
+        .environmentObject(Semitone(showTrivia: false))
+}
+
+public struct AmparoWrapper: View {
+    let step: Int
+    @Binding var path: [Int] // Recibe path como Binding
+    
+    public init(step: Int, path: Binding<[Int]>) {
+        self.step = step
+        _path = path
+        Conductor.path = path
+    }
+
+    public var body: some View {
+        VStack {
+            MRZScanView(path: $path)
+        }
+    }
+}
+
+func backToApp(path: inout [Int], result: AmparoResult = .interrupted ) {
+    path.removeAll()
+    AmparoIdParameters.configuration?.resultCallback(result)
+}

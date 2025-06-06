@@ -1,0 +1,69 @@
+//
+//  AmparoIdConfig.swift
+//  sdk
+//
+//  Created by Alberto Calderón on 13-02-25.
+//
+
+import Foundation
+import SwiftUICore
+
+public enum AmparoResult {
+    case completed
+    case interrupted
+}
+
+public class AmparoIdConfig {
+    
+    public let sdkApiKey: String
+    
+    public var baseUrl: String
+    var score: String = "default"
+    public var ksmKey: String
+    public var skmKey: String
+    public var awsServer: Bool = true
+    public var eCert:String
+    public var mainColor: Color = AppColor.primaryMain
+    public var contactButtonText: String?
+    public var contactSupport: () -> Void = { }
+<<<<<<< Updated upstream
+    public var resultCallback: (AmparoResult) -> () =  {_ in }
+=======
+>>>>>>> Stashed changes
+    public var helpMessageTime: Double = timerHelp
+    
+    public init(sdkApiKey: String, baseUrl: String, ksmKey: String, skmKey: String, eCert: String, resultCallback: @escaping (AmparoResult) -> ()) {
+        self.sdkApiKey = sdkApiKey
+        self.baseUrl = baseUrl
+        self.ksmKey = ksmKey
+        self.skmKey = skmKey
+        self.eCert = eCert
+        self.resultCallback = resultCallback
+    }
+    
+}
+
+internal class AmparoIdParameters {
+    static var configuration: AmparoIdConfig?
+    
+    static func contactText() -> String {
+        return  configuration?.contactButtonText ?? "Contactar a Servicio al Cliente"
+    }
+    
+    static func defaultFunc() -> Void {
+        print ("Please implement function")
+    }
+    
+    static func contactSupport() -> () -> Void {
+        
+        if (configuration == nil) {
+            return defaultFunc
+        }
+        
+        return configuration!.contactSupport
+    }
+    
+    static func helpModalTime() -> Double {
+        return configuration?.helpMessageTime ?? timerHelp
+    }
+}
