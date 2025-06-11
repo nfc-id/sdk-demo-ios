@@ -52,6 +52,7 @@ func amparoConfiguration() -> String{
                 print("The flux response is : \(result)")
         })
 
+    config.defaultCountry = "URY"
     config.helpMessageTime = 500
     config.mainColor = Color(red: 0.0047, green: 0.847, blue: 0.44)
     config.contactButtonText = "Call us"

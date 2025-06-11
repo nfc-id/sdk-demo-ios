@@ -68,7 +68,7 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		D3CBD2C12DF3507300C12277 /* Exceptions for "fd" folder in "Embed Frameworks" phase from "fd" target */ = {
+		D3E2BF572DF9CF5F005B7522 /* Exceptions for "fd" folder in "Embed Frameworks" phase from "fd" target */ = {
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			attributesByRelativePath = {
 				Frameworks/sdk.xcframework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
@@ -85,7 +85,7 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				D3BAAA012D5545CF00E8C89A /* Exceptions for "fd" folder in "fd" target */,
-				D3CBD2C12DF3507300C12277 /* Exceptions for "fd" folder in "Embed Frameworks" phase from "fd" target */,
+				D3E2BF572DF9CF5F005B7522 /* Exceptions for "fd" folder in "Embed Frameworks" phase from "fd" target */,
 			);
 			path = fd;
 			sourceTree = "<group>";
