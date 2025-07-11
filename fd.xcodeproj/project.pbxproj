@@ -67,25 +67,11 @@
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		D3E2BF572DF9CF5F005B7522 /* Exceptions for "fd" folder in "Embed Frameworks" phase from "fd" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			attributesByRelativePath = {
-				Frameworks/sdk.xcframework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
-			};
-			buildPhase = D30104682D7B2B2800BF870E /* Embed Frameworks */;
-			membershipExceptions = (
-				Frameworks/sdk.xcframework,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D32686EC2D1AEA550014646B /* fd */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				D3BAAA012D5545CF00E8C89A /* Exceptions for "fd" folder in "fd" target */,
-				D3E2BF572DF9CF5F005B7522 /* Exceptions for "fd" folder in "Embed Frameworks" phase from "fd" target */,
 			);
 			path = fd;
 			sourceTree = "<group>";

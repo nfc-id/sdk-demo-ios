@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>AfterMRZWaitView.swift.orig</key>
-		<data>
-		tjPAZ2TR0nqga2K3SVCN9B/1pEA=
-		</data>
 		<key>AmparoId.swift.orig</key>
 		<data>
 		PDzLFwKnm8z2Ypdr62kpjmUhY2U=
@@ -18,7 +14,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		wcLoyvcQLTqt14hTag940GkziBw=
+		r8VxD9XlZi4+Rj/wUoZtnmzn1zM=
 		</data>
 		<key>BetaConfig.xcconfig</key>
 		<data>
@@ -54,7 +50,7 @@
 		</data>
 		<key>Modules/sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		W2+1hR92rIQdbCG/kOPLfweNG3I=
+		GZtxhDpFbEkZYxJ9KyiTJyXnuF4=
 		</data>
 		<key>Poppins-Black.ttf</key>
 		<data>
@@ -136,7 +132,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			muP7FONGluGlQrIzBPCSDWPSReA=
+			NhjHvmwt/LJ/eTI5kEbAWDwkWFU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -145,7 +141,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RyfQXslsDcjh6F9XWAAmS/Bx3i0=
+			6QfVdN5H7m/rG4ntuL6r6A0viNE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -157,13 +153,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>AfterMRZWaitView.swift.orig</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZujKkZhzaz6p958kOO6Nd9/omxP+ZYPJDAR35/J9Bgk=
-			</data>
-		</dict>
 		<key>AmparoId.swift.orig</key>
 		<dict>
 			<key>hash2</key>
@@ -182,7 +171,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XwCJoVf0q8vUsOAM/ZtXRNUQ04N4vwr23PiuUcfNjCc=
+			8KZkKVT2GPjizX6vFkDzWbTgg28jNwP+M8ospzTHVss=
 			</data>
 		</dict>
 		<key>BetaConfig.xcconfig</key>
@@ -238,7 +227,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F9GBzTK1BzkV+sLKWyw6blrZhJZpuRrOm/DUIqqokZE=
+			/f2tdZ38y1NNWuy4KeexTkNPW5K2qepIl/ulh5d8dF8=
 			</data>
 		</dict>
 		<key>Poppins-Black.ttf</key>
@@ -378,7 +367,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XQ0KW8RTRyT2qGsrAmSFEoTnfPQMwrqAGYgUeUFdPS8=
+			HImHAc5XtOXeHd9A8eTMkevdrRZ5nWABYONtvlbRjAg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -387,7 +376,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Njtis8hB4GKh5gNZOGVNM8X7b59JGCNthUr5bB7EOyQ=
+			QC+c2iS92NyBlQi7TtaS/1ZAQjxuE//Oh/o8nl+N33U=
 			</data>
 			<key>optional</key>
 			<true/>

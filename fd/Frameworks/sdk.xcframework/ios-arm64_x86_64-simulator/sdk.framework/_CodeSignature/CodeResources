@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>AfterMRZWaitView.swift.orig</key>
-		<data>
-		tjPAZ2TR0nqga2K3SVCN9B/1pEA=
-		</data>
 		<key>AmparoId.swift.orig</key>
 		<data>
 		PDzLFwKnm8z2Ypdr62kpjmUhY2U=
@@ -18,7 +14,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		A+98M4ybBW3hPEhTwPUMMbU+v5A=
+		r8VxD9XlZi4+Rj/wUoZtnmzn1zM=
 		</data>
 		<key>BetaConfig.xcconfig</key>
 		<data>
@@ -54,7 +50,7 @@
 		</data>
 		<key>Modules/sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cDXLSmEgK6WUUPrg7eCR7DeDp7k=
+		A8bvUYY1oc8ynBk5+EcCBbE3oaY=
 		</data>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -66,7 +62,7 @@
 		</data>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Qr8U55uv4edBUZY6yScGioV9beI=
+		oPoUMFm/sPoq5SdhUr1o0iXj2wg=
 		</data>
 		<key>Poppins-Black.ttf</key>
 		<data>
@@ -148,7 +144,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			muP7FONGluGlQrIzBPCSDWPSReA=
+			NhjHvmwt/LJ/eTI5kEbAWDwkWFU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -157,7 +153,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RyfQXslsDcjh6F9XWAAmS/Bx3i0=
+			6QfVdN5H7m/rG4ntuL6r6A0viNE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -169,13 +165,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>AfterMRZWaitView.swift.orig</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZujKkZhzaz6p958kOO6Nd9/omxP+ZYPJDAR35/J9Bgk=
-			</data>
-		</dict>
 		<key>AmparoId.swift.orig</key>
 		<dict>
 			<key>hash2</key>
@@ -194,7 +183,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3ywBHI37k1O1bZ54MChPd4juYhntqcg3ET5URZltONs=
+			8KZkKVT2GPjizX6vFkDzWbTgg28jNwP+M8ospzTHVss=
 			</data>
 		</dict>
 		<key>BetaConfig.xcconfig</key>
@@ -250,7 +239,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a/J1B/itlOPWYlFuT43ZPlXpZ8kL3deZjPVyIG4Jev4=
+			rwexr9kKavGnq3bBQCGa3h+SA00pdNMLyRgKskMRCtc=
 			</data>
 		</dict>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -271,7 +260,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DKmnYDOu3phUL1z92OGzvc2rzWUhbGuRTX7x3QrxMxU=
+			5MUmRlOFbSeFd9HWcpycA3ok1h5zCfFNDqYunDk/Iec=
 			</data>
 		</dict>
 		<key>Poppins-Black.ttf</key>
@@ -411,7 +400,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XQ0KW8RTRyT2qGsrAmSFEoTnfPQMwrqAGYgUeUFdPS8=
+			HImHAc5XtOXeHd9A8eTMkevdrRZ5nWABYONtvlbRjAg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -420,7 +409,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Njtis8hB4GKh5gNZOGVNM8X7b59JGCNthUr5bB7EOyQ=
+			QC+c2iS92NyBlQi7TtaS/1ZAQjxuE//Oh/o8nl+N33U=
 			</data>
 			<key>optional</key>
 			<true/>
