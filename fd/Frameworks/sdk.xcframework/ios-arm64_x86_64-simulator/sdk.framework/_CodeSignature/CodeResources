@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		A8bvUYY1oc8ynBk5+EcCBbE3oaY=
+		FLwVb2KVQq7yuCX4DhUSBOWqiM0=
 		</data>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oPoUMFm/sPoq5SdhUr1o0iXj2wg=
+		cyD9hK5bR1BWZ0CzI6TOanzVLGk=
 		</data>
 		<key>Poppins-Black.ttf</key>
 		<data>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NhjHvmwt/LJ/eTI5kEbAWDwkWFU=
+			bHKbPEIAGsI6hPtoZY3/+Cylmss=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -153,7 +153,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6QfVdN5H7m/rG4ntuL6r6A0viNE=
+			p39gb8pJHuyIZI/LLf26I/u4vjQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -239,7 +239,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rwexr9kKavGnq3bBQCGa3h+SA00pdNMLyRgKskMRCtc=
+			HPpQG9lVBbJXh7eMXylV7YR1SQeVAa/h2V/nFFO1cVM=
 			</data>
 		</dict>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -260,7 +260,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5MUmRlOFbSeFd9HWcpycA3ok1h5zCfFNDqYunDk/Iec=
+			znBO3XihKQl9Wp9LT82WbkjMblW2miLmpWtufnriodg=
 			</data>
 		</dict>
 		<key>Poppins-Black.ttf</key>
@@ -400,7 +400,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HImHAc5XtOXeHd9A8eTMkevdrRZ5nWABYONtvlbRjAg=
+			wVsvBAuoffHfZfsvooqSPDfp5XWp1R0E2bWCEm+7rII=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -409,7 +409,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QC+c2iS92NyBlQi7TtaS/1ZAQjxuE//Oh/o8nl+N33U=
+			A1Tm44ALAA9kSqabJBN6YXU+GFiy9qqhQHXalA8hIaA=
 			</data>
 			<key>optional</key>
 			<true/>
