@@ -14,7 +14,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		r8VxD9XlZi4+Rj/wUoZtnmzn1zM=
+		u+oNgtNqMmpWYgZuWn/QqXZV3kg=
 		</data>
 		<key>BetaConfig.xcconfig</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FLwVb2KVQq7yuCX4DhUSBOWqiM0=
+		KAe0/5661ammXEi4ATRRsSURp08=
 		</data>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cyD9hK5bR1BWZ0CzI6TOanzVLGk=
+		GTOP/ubpx0txgf89zMEAeze2PUI=
 		</data>
 		<key>Poppins-Black.ttf</key>
 		<data>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bHKbPEIAGsI6hPtoZY3/+Cylmss=
+			3bgQO3/GmF+Va4Bg8XCWUB9IBCU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -153,7 +153,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p39gb8pJHuyIZI/LLf26I/u4vjQ=
+			vgBR3kVoO9zsX4IfbVXU+achwrk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -183,7 +183,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8KZkKVT2GPjizX6vFkDzWbTgg28jNwP+M8ospzTHVss=
+			lBahWkbboblH3HPIuoH+tHIhjZG54pDw2QCHEFtfHuM=
 			</data>
 		</dict>
 		<key>BetaConfig.xcconfig</key>
@@ -239,7 +239,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HPpQG9lVBbJXh7eMXylV7YR1SQeVAa/h2V/nFFO1cVM=
+			CVYj1SeJ3puEIHRU2Y+GxnshU5uNmtH9ty6txv9Ux7Q=
 			</data>
 		</dict>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -260,7 +260,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			znBO3XihKQl9Wp9LT82WbkjMblW2miLmpWtufnriodg=
+			87hYrjJH54v7+SpWZ5l4IB/DmCyvj4LDTMKtip4+X0M=
 			</data>
 		</dict>
 		<key>Poppins-Black.ttf</key>
@@ -400,7 +400,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wVsvBAuoffHfZfsvooqSPDfp5XWp1R0E2bWCEm+7rII=
+			tXkt+ztPj5J1jph+HY5NFtDh4ErTqaTKAF2E9Z9I9kc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -409,7 +409,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A1Tm44ALAA9kSqabJBN6YXU+GFiy9qqhQHXalA8hIaA=
+			hxsKZE4sh25vlxEPAEznCMLwYKVnW0FUpQII2WUVjXU=
 			</data>
 			<key>optional</key>
 			<true/>
