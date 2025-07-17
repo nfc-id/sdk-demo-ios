@@ -4,14 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>AmparoId.swift.orig</key>
-		<data>
-		PDzLFwKnm8z2Ypdr62kpjmUhY2U=
-		</data>
-		<key>AmparoIdConfig.swift.orig</key>
-		<data>
-		oo34FTu8xsBO/TjsyaDeY4l+/Fk=
-		</data>
 		<key>Assets.car</key>
 		<data>
 		u+oNgtNqMmpWYgZuWn/QqXZV3kg=
@@ -50,7 +42,7 @@
 		</data>
 		<key>Modules/sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KAe0/5661ammXEi4ATRRsSURp08=
+		jj2UjCw2UyDkmLP4MNDFWj4frf8=
 		</data>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -62,7 +54,7 @@
 		</data>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GTOP/ubpx0txgf89zMEAeze2PUI=
+		iTcSmh0oR/+p+21iDncREd8Dl7A=
 		</data>
 		<key>Poppins-Black.ttf</key>
 		<data>
@@ -144,7 +136,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3bgQO3/GmF+Va4Bg8XCWUB9IBCU=
+			IbUM0deM9PlfBJpfiVB611OL5EM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -153,7 +145,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vgBR3kVoO9zsX4IfbVXU+achwrk=
+			GvZ95jmLBc+9MKf2y5GFLAHDmE4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -165,20 +157,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>AmparoId.swift.orig</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VVJJoPfqT8xHZ/pw4UYJiBZ1zYff5gpGt2v0AI0cY7E=
-			</data>
-		</dict>
-		<key>AmparoIdConfig.swift.orig</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yj31bL7gLs8NJEQ1VQ2sqFWOyodOGynF6SN1reSEX/8=
-			</data>
-		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
@@ -239,7 +217,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CVYj1SeJ3puEIHRU2Y+GxnshU5uNmtH9ty6txv9Ux7Q=
+			lu+4PJ/BOf/ltiIRbKshpfv/RdjMz6iJzzAhoL65TZs=
 			</data>
 		</dict>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -260,7 +238,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			87hYrjJH54v7+SpWZ5l4IB/DmCyvj4LDTMKtip4+X0M=
+			H7zNIgePcdpY7zlD6CkbX3IKlw16RB8YYAYKXHIWTeU=
 			</data>
 		</dict>
 		<key>Poppins-Black.ttf</key>
@@ -400,7 +378,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tXkt+ztPj5J1jph+HY5NFtDh4ErTqaTKAF2E9Z9I9kc=
+			QfJ12bokbsu7cG0lMvEl+brgDcUU2wc5RrUjjqLnrpk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -409,7 +387,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hxsKZE4sh25vlxEPAEznCMLwYKVnW0FUpQII2WUVjXU=
+			9fmDyKYmdoZwlAxvX0S3vyB4FomgQQwGNksPy4ulG0k=
 			</data>
 			<key>optional</key>
 			<true/>
