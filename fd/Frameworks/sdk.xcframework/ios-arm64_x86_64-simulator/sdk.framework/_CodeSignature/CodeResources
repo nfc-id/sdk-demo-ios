@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		u+oNgtNqMmpWYgZuWn/QqXZV3kg=
+		RPkqJXOJK7imgUW2oZQD+gkrI+g=
 		</data>
 		<key>BetaConfig.xcconfig</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Z6w2CNTFismsJD5zlmSJzBvoZLQ=
+		vz7vHmgFK3DUi08WiCnbTXoFpzk=
 		</data>
 		<key>InfoMtls</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/sdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		pGjKPmeCqSh3r9o0VHxKM+zjdcU=
+		vs4yrKgva2dRd3MZQg8mNOBSCjk=
 		</data>
 		<key>Modules/sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jj2UjCw2UyDkmLP4MNDFWj4frf8=
+		LH33Oiun+a0novP4pUuulNTR3gI=
 		</data>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		HwRPRXlfCjInLNeALQQbcT81YoQ=
+		iyqUXbYs63O9/15NIRAUo7tQRQY=
 		</data>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iTcSmh0oR/+p+21iDncREd8Dl7A=
+		GTIgKD6QWW18UapGJZmEzb8bmHI=
 		</data>
 		<key>Poppins-Black.ttf</key>
 		<data>
@@ -161,7 +161,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lBahWkbboblH3HPIuoH+tHIhjZG54pDw2QCHEFtfHuM=
+			+8816SfTQh7WhbtIIstEwkANYe6WTKsGWQlfg72YQmg=
 			</data>
 		</dict>
 		<key>BetaConfig.xcconfig</key>
@@ -210,14 +210,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ujfrE6kTlnIFNbIqXV0FJgUpp/SUyBzUw/juq+c39l0=
+			rn4BsUSBKR3vHTNgQ6BV3p+3aNk58K/e9Dr9sfAiakQ=
 			</data>
 		</dict>
 		<key>Modules/sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lu+4PJ/BOf/ltiIRbKshpfv/RdjMz6iJzzAhoL65TZs=
+			/4XySY7w6hI4iO9UqiaRzOUfXKJvYQbvix0cu0xVNXM=
 			</data>
 		</dict>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -231,14 +231,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZL6yzS6xJjeJWJtmkLiXBcAWQxDxNTf+n/w/QeaPlak=
+			QK1K8ZAEAf+UKXyaM/qA4NH+sDBcGZL8CLrSN2pcUBU=
 			</data>
 		</dict>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H7zNIgePcdpY7zlD6CkbX3IKlw16RB8YYAYKXHIWTeU=
+			FTwrv+pQ0eFp1h4swEj7GsziPKmX9ajNsrppqmwivWE=
 			</data>
 		</dict>
 		<key>Poppins-Black.ttf</key>
