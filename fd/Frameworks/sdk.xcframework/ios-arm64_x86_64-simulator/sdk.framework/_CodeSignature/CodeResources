@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		ApCZe+Wfe5E5DUZeFi3k3cK99PE=
+		RPkqJXOJK7imgUW2oZQD+gkrI+g=
 		</data>
 		<key>BetaConfig.xcconfig</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9EepH6UvcX+vVFUiVNix8kYsav4=
+		LH33Oiun+a0novP4pUuulNTR3gI=
 		</data>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ziYOeC7U58vhmDys4TVNfrZ1P1c=
+		GTIgKD6QWW18UapGJZmEzb8bmHI=
 		</data>
 		<key>Poppins-Black.ttf</key>
 		<data>
@@ -161,7 +161,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jhR4s28UbyLhH+5NYI8QlRkdet8Y9Gw6MHQaEaIZFAk=
+			+8816SfTQh7WhbtIIstEwkANYe6WTKsGWQlfg72YQmg=
 			</data>
 		</dict>
 		<key>BetaConfig.xcconfig</key>
@@ -217,7 +217,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			crCjXrSTXB/hvhyLZvLEaxVtk8yWDXRnrXmEVk0hiL0=
+			/4XySY7w6hI4iO9UqiaRzOUfXKJvYQbvix0cu0xVNXM=
 			</data>
 		</dict>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -238,7 +238,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LmifFsFXHRL34dMpUJEsSeh2ICQi9Xd6twU1mV0Iurs=
+			FTwrv+pQ0eFp1h4swEj7GsziPKmX9ajNsrppqmwivWE=
 			</data>
 		</dict>
 		<key>Poppins-Black.ttf</key>
