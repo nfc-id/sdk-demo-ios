@@ -67,11 +67,25 @@
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		D36853E52EFEE07400F50506 /* Exceptions for "fd" folder in "Embed Frameworks" phase from "fd" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			attributesByRelativePath = {
+				Frameworks/sdk.xcframework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
+			};
+			buildPhase = D30104682D7B2B2800BF870E /* Embed Frameworks */;
+			membershipExceptions = (
+				Frameworks/sdk.xcframework,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D32686EC2D1AEA550014646B /* fd */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				D3BAAA012D5545CF00E8C89A /* Exceptions for "fd" folder in "fd" target */,
+				D36853E52EFEE07400F50506 /* Exceptions for "fd" folder in "Embed Frameworks" phase from "fd" target */,
 			);
 			path = fd;
 			sourceTree = "<group>";
@@ -273,7 +287,6 @@
 				D3A3A2B02D4A9C7900C65D46 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
 				D3A3A2B12D4A9C8700C65D46 /* XCRemoteSwiftPackageReference "TrustKit" */,
 				D3A3A2B22D4A9C9700C65D46 /* XCRemoteSwiftPackageReference "amplify-ui-swift-liveness" */,
-				D314A0382D4D91210066C3F6 /* XCRemoteSwiftPackageReference "RNCryptor" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D32686EB2D1AEA550014646B /* Products */;
@@ -688,14 +701,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D314A0382D4D91210066C3F6 /* XCRemoteSwiftPackageReference "RNCryptor" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/RNCryptor/RNCryptor";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.1.0;
-			};
-		};
 		D3A3A2A82D4A9B9600C65D46 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
@@ -709,7 +714,7 @@
 			repositoryURL = "https://github.com/devicekit/DeviceKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 5.5.0;
+				minimumVersion = 5.6.0;
 			};
 		};
 		D3A3A2AA2D4A9BD200C65D46 /* XCRemoteSwiftPackageReference "MRZScanner" */ = {
@@ -781,7 +786,7 @@
 			repositoryURL = "https://github.com/aws-amplify/amplify-ui-swift-liveness";
 			requirement = {
 				kind = exactVersion;
-				version = 1.3.3;
+				version = 1.4.4;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
