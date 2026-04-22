@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		33dLEUpZo3rFoLSq+tiISklLw1I=
+		1NmDzaRCbvZ32J71mhCenkhc94Q=
 		</data>
 		<key>BetaConfig.xcconfig</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IVADf0Fic7e3i9zYjkeafX+nrNI=
+		X1VgdbJDf0malDvys73qymK4MOM=
 		</data>
 		<key>InfoMtls</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/sdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		PFb0Lswl5+tZRCKC2N2OBnm66hg=
+		Yw2Hreu+Jap4Tqt59E1l8+ry8C8=
 		</data>
 		<key>Modules/sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zT/zjigXKUxQcmDtTlguIQWsfBM=
+		wqjLValIHh71J4XnvJZB8UB92KQ=
 		</data>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		2lJhgAOfLatQsvKHDs44UUazGLA=
+		CiroRgRwIfufVswYVeTTsHcxevY=
 		</data>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		tKekCUVufgA6MbAirC1Xa9ENQAg=
+		+G+x3u9Nf+C4bW3eh9Qozy2SF/8=
 		</data>
 		<key>Poppins-Black.ttf</key>
 		<data>
@@ -161,7 +161,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qkGLgs+3oLeKmGtHo0CHikRPTQREkaEF7o+683ZeQJU=
+			p+uhwkboR+gDLOU9+FSqFckIIlKiKZabjfgMt/w66Fo=
 			</data>
 		</dict>
 		<key>BetaConfig.xcconfig</key>
@@ -210,14 +210,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L0YUd6MD0l9R83iG8siKTlMSXAoHq39l9TmyVkUFQVs=
+			Y83EuB1DyQNhIbTmik9rH3rg47ji/cIL4cV1y7mWohU=
 			</data>
 		</dict>
 		<key>Modules/sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cYkpQixjxwKacmnEtDZk+sEA2UuQKv4OxC4hIM02Q78=
+			dPQoq57ZE9b/xvfaZk1CGLpEUPLcQvST139CtpG1BXk=
 			</data>
 		</dict>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -231,14 +231,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nqqTN/jn68jSPFf4SENG8OyZVIfz8lMqX5Ek04V84xk=
+			l+TQ4V8uXzBu94jDQgd3vPuL6Khy0h7BBZ4X3ypgmHQ=
 			</data>
 		</dict>
 		<key>Modules/sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q5p6jH1PBuiKHuzhCG4I36Co36kd7ZqGep12pXPGgm0=
+			l0YKhHgACgrcvfpZXNMfJUIV0B2IMq3mreFOJUuw4Cs=
 			</data>
 		</dict>
 		<key>Poppins-Black.ttf</key>
