@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		RSOmR0AFvxU2wLsjQEa3foD/fDg=
+		O+gHkdgPAgvnxe6z6QriKCTgGEs=
 		</data>
 		<key>BetaConfig.xcconfig</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1aXCLSyWN3IEAgdwULR+okWmgAs=
+		9oIxq9wUzlc51LQSrnbhBii+bZY=
 		</data>
 		<key>InfoMtls</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		IEzLI2K1ec1vmNrLwQY5qjRRZ88=
+		hdwuvp+tEvYE42pOTSdqcE9r+8s=
 		</data>
 		<key>Poppins-Black.ttf</key>
 		<data>
@@ -149,7 +149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dm1qyHpTi4uv7Bs4gx/39dnsVWT/oRounkN8w2EWcMw=
+			y3jKygJBQCcyGVqtWqxEK84G4uJBw9MltDUckHzoxZY=
 			</data>
 		</dict>
 		<key>BetaConfig.xcconfig</key>
@@ -205,7 +205,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WuJ+DeV6FpoSKjKwHryUjlgA9DFkzfmJBgIGGI/48+A=
+			T/1tsNDRgkazRbeDjprixj8yLP89ZEN3NTNkWTXIjR0=
 			</data>
 		</dict>
 		<key>Poppins-Black.ttf</key>
